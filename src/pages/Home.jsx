@@ -24,8 +24,8 @@ const Home = () => {
             </h1>
           <p className='text__para'>
           At the heart of our mission lies a simple yet profound commitment: 
-          <br>to empower individuals to live healthier, longer lives. Through personalized care and innovative solutions,
-           we guide our patients on a transformative journey towards vibrant well-being and enduring vitality."</br>
+          to empower individuals to live healthier, longer lives. Through personalized care and innovative solutions,
+           we guide our patients on a transformative journey towards vibrant well-being and enduring vitality."
           </p>
 
           <button className='btn'>
@@ -78,10 +78,6 @@ lg:gap-[30px]'>
 <img className='w-full'src={heroImg01} alt="" />
     </div>
 
-    <div className='mt-[30px]'>
-      <img src={heroImg02} alt=""  className='w-full mb-[30px]'/>
-      <img src={heroImg03}  alt=""  className='w-full' />
-    </div>
   </div>
 </section>
 </>
