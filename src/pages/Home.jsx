@@ -78,6 +78,12 @@ lg:gap-[30px]'>
 <img className='w-full'src={heroImg01} alt="" />
     </div>
 
+    <div className='mt-[30px]'>
+<img src={heroImg02} alt="" className="w-full mb-[30px]" />
+<img src={heroImg03} alt="" className='w-full'  />
+</div>
+    </div>
+<div>
   </div>
 </section>
 </>
