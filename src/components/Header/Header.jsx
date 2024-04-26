@@ -62,8 +62,7 @@ const toggleMenu = ()=> menuRef.current.classList.toggle('show__Menu')
 {/*====== menu ====== */}
 <div className='navigation' ref={menuRef} onClick={toggleMenu}>
   <ul className='menu flex items-center gap-[2.7rem]'>
-{
-navLinks.map((link,index)=> <li key={index}>
+{navLinks.map((link,index)=> <li key={index}>
 <NavLink to={link.path} className={navClass => 
       navClass.isActive 
       ? 'text-primaryColor text-[16px] leading-7 font-[600]' 
