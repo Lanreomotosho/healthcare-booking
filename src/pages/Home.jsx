@@ -1,6 +1,8 @@
 import React from 'react';
 
-import heroImg01 from '../assets/images/hero-img01.png';
+import heroImg01 from "../assets/images/hero-img01.png";
+import heroImg02 from "../assets/images/hero-img02.png";
+import heroImg03 from "../assets/images/hero-img03.png";
 
 const Home = () => {
   return <>
@@ -18,11 +20,12 @@ const Home = () => {
         <div className='lg:w-[570px]'>
           <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px]
           md:leading-[70px]'>
-            We help patients live a healthy, longer life.
+           Transforming Lives: Our Commitment to Extending Health and Longevity for Patients
             </h1>
           <p className='text__para'>
-            My name is lanreomonfnkfj ndbdjdkdkd hfjkkdkdjdndnfjfnfknfknfc jjddjcndkvnvknvdmkvnv jndkndkdnkd
-            hdfhfjdkdkddkvnkvnvknvknvd
+          At the heart of our mission lies a simple yet profound commitment: 
+          <br>to empower individuals to live healthier, longer lives. Through personalized care and innovative solutions,
+           we guide our patients on a transformative journey towards vibrant well-being and enduring vitality."</br>
           </p>
 
           <button className='btn'>
@@ -76,7 +79,8 @@ lg:gap-[30px]'>
     </div>
 
     <div className='mt-[30px]'>
-      <img src={heroIM} alt="" />
+      <img src={heroImg02} alt=""  className='w-full mb-[30px]'/>
+      <img src={heroImg03}  alt=""  className='w-full' />
     </div>
   </div>
 </section>
