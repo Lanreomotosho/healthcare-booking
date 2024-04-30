@@ -167,10 +167,9 @@ hover:border-none">
   </div>
 </section>
 
-<About />
-
 
     </>
+ 
   );
 };
 
