@@ -29,6 +29,7 @@ const About = () => {
 
   <p className='text__para mt-[30px]'>Our best is something we strive for each day, caring for 
   our patients-not looking back at what we accomplished but towards what we can do tomorrow. Providing the best. 
+  Would you like to know more about us?
   </p>
  
   <Link to='/'>
