@@ -9,6 +9,7 @@ import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
 import { Link } from 'react-router-dom'; 
 import { BsArrowRight,  } from 'react-icons/bs';
+import About from '../components/About/About';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <div className='flex flex-col lg:flex-row gap-[90px] items-center justify-between'>
 {/*  ======  hero content =========*/}
 { /*  ======= hero content ======*/}
+
 <div>
   <div className='lg:w-[570px]'>
     <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px]
@@ -63,13 +65,8 @@ lg:gap-[30px] '>
   <span className='w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]'></span>
   <p className='text__para'>Patient Satisfaction</p>
 </div>
-
-
-
 </div>
 </div>
-
-
 {/*   ======= hero content =======*/}
 
 <div className='flex gap-[30px] justify-end'>
@@ -167,10 +164,11 @@ hover:border-none">
   </div>
 </section>
 
-
+<About />
     </>
  
   );
 };
+
 
 export default Home
