@@ -10,6 +10,7 @@ import icon03 from "../assets/images/icon03.png";
 import { Link } from 'react-router-dom'; 
 import { BsArrowRight,  } from 'react-icons/bs';
 import About from '../components/About/About';
+import ServiceList from '../components/Services/ServiceList';
 
 const Home = () => {
   return (
@@ -177,6 +178,9 @@ hover:border-none">
         World-class care for everyone. Our health System offers unmatched, expert health care.
       </p>
     </div>
+
+
+    <ServiceList />
   </div>
 </section>
 
