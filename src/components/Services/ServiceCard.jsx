@@ -23,12 +23,17 @@ border-[]#181A1E] mt-[30px] mx-auto flex items-center justify-center  group hove
 hover:border-none">
 <BsArrowRight className='group-hover:text-white w-6 h-5'/>
 </Link>
+<span 
+className='w-[44px] h-[44px] flex items-center justify-center texy-[18px] leading-[30px] font-[600]'
+style={{
+  background: `${bgColor}`,
+  color: `${textColor}`,
+  borderRadius: "6px 0 0 6px",
+}}
+>
+{index + 1}
+</span>
 </div>
-
-
-
-
-
     </div>
   );
 };
