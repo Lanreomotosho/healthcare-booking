@@ -216,11 +216,11 @@ hover:border-none">
 
 
   {/*======== feature img  ==========*/}
-<div className='relative z-10 xl:w[770px] flex justify-end mt-[50px] lg:mt-0'>
-  <img src={featureImg} className="" alt="" />
+<div className='relative z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0'>
+  <img src={featureImg} className="w-3/4" alt="" />
 
-<div className='w-[150px] lg:w-[248px] bg-white absolute button-[50px] left-0 md:bottom-
-[100px] md:left-5 z-20 p-2 pb-3 lg:pt-4 lg:px-4 lg:pb-[26px] rounded-[10px]'>
+<div className='w-[150px] lg:w-[248px] bg-white absolute button-[50px] left-0
+ md:bottom-[50px] md:left-5 z-20 p-2 pb-3 lg:pt-4 lg:px-4 lg:pb-[26px] rounded-[10px]'>
   <div className='flex items-center justify-between'>
     <div className='flex items-center gap-[6px] lg:gap-3'>
       <p className='text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 text-headingColor
@@ -236,6 +236,7 @@ hover:border-none">
 bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]'>
   <img src={videoIcon} alt='' />
 </span>
+
   </div>
 
 </div>
