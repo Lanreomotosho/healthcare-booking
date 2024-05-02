@@ -7,6 +7,7 @@ import heroImg03 from "../assets/images/hero-img03.png";
 import icon01 from "../assets/images/icon01.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/icon03.png";
+import featureImg from '../assets/images/feature-img.png'
 import { Link } from 'react-router-dom'; 
 import { BsArrowRight,  } from 'react-icons/bs';
 import About from '../components/About/About';
@@ -184,11 +185,54 @@ hover:border-none">
   </div>
 </section>
 
-
-
-
-
 {/*======== services section end ==========*/}
+
+  
+{/*======== feature section  ==========*/}
+
+<section>
+  <div className='container'>
+<div className='flex items-center justify-between flex-col lg:flex-row'>
+
+  {/*======== feature content  ==========*/}
+  <div className='xl:w-[670px]'>
+    <h2 className='heading'>Get virtual treatment <br /> anytime.
+    </h2>
+    <ul className='pl-4'>
+      <li className='text__para'>
+        1. Schedule the appointment directly.
+        </li>
+        <li className='text__para'>
+        2. Search for your physician here, and contact their office.
+        </li>
+        <li className='text__para'>
+        3. View oue physicians who are accepting new patients,
+         use the online scheduling tol to select an appointment time.
+        </li>
+    </ul>
+    <Link to='/'><button className='btn'>Learn More</button></Link>
+  </div>
+
+
+  {/*======== feature img  ==========*/}
+<div className='relative z-10 xl:w[770px] flex justify-end mt-[50px] lg:mt-0'>
+  <img src={featureImg} className="" alt="" />
+
+<div className='w-[150px] lg:w-[248px] bg-white absolute button-[50px] left-0 md:bottom-[100px]
+md:left-5 z-20 p-2 pb-3 lg:pt-4 lg:px-4  lg:pb-[26px] rounded-[10px]'>
+  <div className='flex items-center justify-between'>
+    
+
+  </div>
+
+</div>
+
+</div>
+
+
+</div>
+  </div>
+</section>
     </>
  
   );
