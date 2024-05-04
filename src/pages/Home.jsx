@@ -11,9 +11,10 @@ import featureImg from '../assets/images/feature-img.png';
 import videoIcon from '../assets/images/video-icon.png';
 import avatarIcon from '../assets/images/avatar-icon.png';
 import { Link } from 'react-router-dom'; 
-import { BsArrowRight,  } from 'react-icons/bs';
+import { BsArrowRight,} from 'react-icons/bs';
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
+import DoctorList from '../components/Doctors/DoctorList';
 
 const Home = () => {
   return (
@@ -269,7 +270,10 @@ bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]'>
         World-class care for everyone. Our health System offers unmatched, expert health care.
       </p>
     </div>
-  </div>
+
+<DoctorList/>
+
+</div>
 </section>
     </>
   );
