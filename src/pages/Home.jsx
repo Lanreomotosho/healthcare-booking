@@ -263,7 +263,7 @@ bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]'>
 <section>
   <div className='container'>
     <div className='xl:w-[470px] mx-auto'>
-      <h2 className='heading text-center'>Our Great Doctors
+      <h2 className='heading text-center'>Our great doctors
       </h2>
       <p className='text__para text-center'>
         World-class care for everyone. Our health System offers unmatched, expert health care.
