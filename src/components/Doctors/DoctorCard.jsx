@@ -1,5 +1,5 @@
 import React from 'react';
-import starIcon from '../../assets/images/star.png'
+import starIcon from '../../assets/images/star.png';
 import { Link } from "react-router-dom";
 import { BsArrowRight } from 'react-icons/bs';
 
@@ -63,8 +63,6 @@ hover:border-none">
 </Link>
 
 </div>
-
-
     </div>
   )
 }
