@@ -247,7 +247,7 @@ bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]'>
 
   <div className='w-[65px] lg:w-[96px] bg-[#CCFOF3] py-1 px-2 lg:py-[6px] lg:px-[10px] text-[8px] leading-[8px]
    lg:text-[12px] lg:leading-4 text-irisBlueColor font-[500] mt-2 lg:mt-4'
-  rounded-full>
+   rounded-full="true">
     Consultation
   </div>
 

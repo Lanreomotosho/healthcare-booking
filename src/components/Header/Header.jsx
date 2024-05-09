@@ -35,7 +35,7 @@ const handleStickyHeader = ()=> {
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop >80){
   headerRef.current.classList.add('sticky__header')
     }else{
-      headerRef.current.className.remove('sticky__header')
+      headerRef.current.classList.remove('sticky__header')
     }
   })
 }
