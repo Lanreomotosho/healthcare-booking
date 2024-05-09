@@ -5,8 +5,6 @@ import {NavLink, Link } from 'react-router-dom';
 import {BiMenu} from 'react-icons/bi';
 
 
-
-
 const navLinks = [
   {
     path:'/home',
@@ -24,7 +22,7 @@ const navLinks = [
     path:'/contact',
     display:'Contact'
   },
-]
+];
 
 
 const Header = () => {
@@ -63,14 +61,19 @@ const toggleMenu = ()=> menuRef.current.classList.toggle('show__Menu')
 {/*====== menu ====== */}
 <div className='navigation' ref={menuRef} onClick={toggleMenu}>
   <ul className='menu flex items-center gap-[2.7rem]'>
-{navLinks.map((link,index)=> <li key={index}>
-<NavLink to={link.path} className={navClass => 
+{navLinks.map((link,index)=> (
+<li key={index}>
+<NavLink 
+to={link.path} 
+className={navClass => 
       navClass.isActive 
       ? 'text-primaryColor text-[16px] leading-7 font-[600]' 
-      : 'text-textColor text-[16px] leading-7 font-[500] hover:text-primaryColor'} >{link.
-      display} </NavLink>
-  </li>)
-  } 
+      : 'text-textColor text-[16px] leading-7 font-[500] hover:text-primaryColor'
+    }>
+        {link.display}
+         </NavLink>
+  </li>
+  ))} 
   </ul>
 </div>
 
@@ -86,8 +89,6 @@ const toggleMenu = ()=> menuRef.current.classList.toggle('show__Menu')
       </figure>
     </Link>
   </div>
-
-
 
 <Link to='/login'>
   <button className='bg-primaryColor py-2 px-6 text-white font-[600] h-[44px] flex 
