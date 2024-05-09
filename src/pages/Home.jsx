@@ -286,7 +286,7 @@ bg-yellowColor rounded py-1 px-[6px] lg:py-3 lg:px-[9px]'>
 <section>
   <div className='container'>
     <div className='flex justify-between gap-[50px] lg:gap-0'>
-      <div className='w-1/2 hidden md:block'>
+      <div className='w-1/2  md:block'>
         <img src={faqImg} alt="" />
       </div>
 
