@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 import { BsArrowRight,} from 'react-icons/bs';
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
-import DoctorList from '../components/Doctors/DoctorList';
+import DoctorList from '../components/Doctor/DoctorList';
 import FaqList from '../components/Fag/FaqList';
 import Testimonial from '../components/Testimonial/Testimonial';
 
