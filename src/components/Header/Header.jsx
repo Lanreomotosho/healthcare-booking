@@ -6,6 +6,14 @@ import Logo from '../../assets/images/logo.png';
 
 
 const Header = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+
   return (
     
     <div>
